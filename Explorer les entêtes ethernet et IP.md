@@ -2,8 +2,8 @@
 
 |Questions       |  Réponses     |
 |:-----------|------------:|
-L'adresse MAC source | 00 12 17 41 c2 c7
-L'adresse MAC destination| 00 1a 73 24 44 89 
+L'adresse MAC destination | 00 12 17 41 c2 c7
+L'adresse MAC source| 00 1a 73 24 44 89 
 L'EtherType | 08 00
 La version du protocole | 4
 L'IHL | 5

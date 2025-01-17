@@ -16,17 +16,17 @@
 
 2.  **Méthode Asymétrique:**
 - Les calcules pour chaque pôle selon leur besoin:
-  Pôle Informatique (50): 2^6-2 =62
-  Pôle Développement (12): 2^4-2 =14
-  Pôle Administratif (20): 2^5-2 =30
-  Pôle Technicien (15): 2^5-2 =30
+   . Pôle Informatique (50): 2^6-2 =62
+   . Pôle Développement (12): 2^4-2 =14
+   . Pôle Administratif (20): 2^5-2 =30
+   . Pôle Technicien (15): 2^5-2 =30
   
 - voici le découpage pour les 4 sous-réseaux:
   
 |   | **Adresse réseau** | **Adresse de broadcast** | **Adresse de début de plage** | **Adresse de finde plage**|
 |--------------------------|--------------------------|-------------------------------|------------------------|------------------------|
 | Pôle Informatique       |172.16.1.0/26 |172.16.1.63 | 172.16.1.1| 172.16.1.62|
-| Pôle Développement      | 172.16.1.64/28 |172.16.1.79 | 172.16.1.65|172.16.1.78 |
-| Pôle Administratif     |172.16.1.80/27| 172.16.1.111 | 172.16.1.81|172.16.1.110|
-| Pôle Techncien         |172.16.1.112/27|172.16.1.143|172.16.1.113 |172.16.1.142 |
+| Pôle Administratif      | 172.16.1.64/27 |172.16.1.95| 172.16.1.65|172.16.1.94 |
+| Pôle Technicien     |172.16.1.96/27| 172.16.1.128 | 172.16.1.97|172.16.1.127|
+| Pôle Développement|172.16.1.128/28|172.16.1.143|172.16.1.129 |172.16.1.142 |
 

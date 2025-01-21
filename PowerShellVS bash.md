@@ -5,7 +5,7 @@
 |-----------|-----------|
 |Copy-Item|cp|
 |Remove-Item|rm|
-|cd|Set-Location|
+|Set-Location|cd|
 |New-Item|mkdir|
 |Get-Help|man|
 |Get_History|history|

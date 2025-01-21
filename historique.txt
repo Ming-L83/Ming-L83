@@ -1,0 +1,12 @@
+PS C:\> Get-History
+
+  Id CommandLine                                                                    
+  -- -----------                                                                    
+   1 Get-Location                                                                    
+   2 Get-Host                                                                        
+   3 Set-Location -Path C:\                                                          
+   4 Get-Location                                                                    
+   5 New-Item -Path Temp -ItemType Directory                                        
+   6 Set-Location -Path C:\...                                                      
+   7 #Set-Location -Path C:\...                                                      
+   8 New-Item -ItemType Directory -Path C:\EvenFolder...  
